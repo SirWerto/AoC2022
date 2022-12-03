@@ -1,0 +1,11 @@
+package example
+
+import org.scalatest.flatspec.AnyFlatSpec
+import org.scalatest.matchers.should.Matchers
+
+class Day1Spec extends AnyFlatSpec with Matchers {
+  "Day1.a" should "work" in {
+
+    Day1.a(2) shouldEqual 3
+  }
+}

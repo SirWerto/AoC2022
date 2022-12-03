@@ -1,0 +1,10 @@
+package example
+
+object Day1{
+
+  def a: Int = {2}
+  def b: Int = {2}
+}
+
+
+
